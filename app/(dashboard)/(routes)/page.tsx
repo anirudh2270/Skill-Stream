@@ -1,3 +1,3 @@
-export default function Home() {
+export default function DashboardHome() {
 	return <div>this i a protected route</div>;
 }
