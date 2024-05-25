@@ -6,7 +6,7 @@ const Home = () => {
 	return (
 		<main>
 			<section className="bg-gradient-to-b from-gray-50 via-white to-gray-50">
-				<div className=" mx-auto sm:px-6 lg:px-8 max-w-7xl">
+				<div className=" mx-auto sm:px-6 lg:px-8 max-w-screen-xl">
 					<div className="grid max-w-md grid-cols-1 mx-auto lg:grid-cols-12 gap-x-6 gap-y-8 lg:max-w-none">
 						<div className="self-center lg:col-span-4">
 							<h1 className="text-3xl font-black text-gray-900 text-balance sm:text-4xl xl:text-5xl">

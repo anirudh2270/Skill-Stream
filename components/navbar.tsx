@@ -11,8 +11,8 @@ const Navbar = () => {
 	const { userId } = auth();
 
 	return (
-		<header className="sticky z-50 top-0 flex h-16 items-center gap-4 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60  px-4 md:px-6">
-			<nav className="hidden mx-auto max-w-screen-xl w-full flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-16">
+		<header className="fixed w-full z-50 top-0 flex h-16 items-center gap-4 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60  px-4 md:px-6">
+			<nav className="hidden mx-auto max-w-screen-2xl px-5 w-full flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-16">
 				<Link href={"/"} className="flex items-center gap-3">
 					<Image
 						width={25}
